@@ -15,8 +15,9 @@
             <a class="nav-link" href="/blog/add-new">Add Blog</a>
           </li>
           <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Lakshya Mishra 
+          <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="<%= locals.user.profileImageUrl %>" alt="Profile" width="32" height="32" class="rounded-circle me-2">
+            <%= locals.user.fullName %>
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="/user/logout">Logout</a></li>

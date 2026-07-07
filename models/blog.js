@@ -17,6 +17,10 @@ const blogSchema = new Schema ({
         type : Schema.Types.ObjectId,
         ref : "user",
     },
+    aiSummary: {
+        type: String,
+        default: "",
+    },
 },{timestamps : true});
 
 const Blog = model("blog",blogSchema);
