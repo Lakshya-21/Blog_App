@@ -131,7 +131,7 @@ This caching strategy significantly reduces API calls while improving response t
 Clone the repository
 
 ```bash
-git clone https://github.com/<Lakshya-21>/blogify.git
+git clone https://github.com/Lakshya-21/blogify.git
 ```
 
 Move into the project
